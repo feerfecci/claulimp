@@ -1,0 +1,117 @@
+body {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.section-principal {
+    justify-self: center;
+    display: block;
+    width: 90%;
+    justify-items: center;
+    margin-top: 0px;
+}
+
+.section-principal section {
+    margin-top: 70px;
+}
+
+.logo_corte {
+    height: 150px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    margin-top: 10px;
+
+}
+
+h1 {
+    font-size: xx-large;
+    color: var(--cor-primaria);
+    font-size: 40px;
+}
+
+img {
+    border-radius: 16px;
+    border: 1px solid rgb(163, 163, 163);
+}
+
+.foto_texto {
+    display: flex;
+    margin-top: 60px;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-fotos {
+    width: 100%;
+    height: 450px;
+}
+
+.row-fotos section {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    padding: 0px 40px;
+    justify-content: space-between;
+
+}
+
+.row-fotos section .container-produto {
+    background-color: var(--cor-primaria);
+    height: fit-content;
+    padding: 20px;
+    border-radius: 16px;
+    text-align: start;
+    align-content: space-between;
+
+}
+
+.row-fotos p {
+    margin-top: 15px;
+    color: white;
+    background-color: transparent;    height: 40px;
+
+}
+
+.row-fotos .preco {
+    margin-top: 15px;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.fotos-row {
+    width: 200px !important;
+    height: 150px !important;
+}
+
+
+
+.botao-comprar {
+    cursor: pointer;
+    margin-top: 30px;
+    text-decoration: none;
+    width: 100%;
+    /* height: fit-content; */
+    padding: 10px 10px;
+    background-color: #feffff;
+    border-radius: 12px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+}
+
+.botao-comprar:hover {
+    background-color: rgb(222, 222, 255);
+}
+
+
+.foot-page {
+    height: 200px;
+    width: 100%;
+}
