@@ -1,11 +1,19 @@
-* { box-sizing: border-box;
+* {
+    box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    /* background-color: #2768ac; */
-    background-color: white;
+    background-color: #2768ac;
+    /* background-color: white; */
     font-family: lato;
 }
 
-:root{
---cor-primaria: #2768ac;
+:root {
+    --cor-primaria: #2768ac;
+    --cor-secundaria: white;
+
+    --font-color-primaria: black;
+    --font-color-secundaria: white;
+
+    --borda-card: rgb(163, 163, 163);
+
 }

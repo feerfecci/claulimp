@@ -16,7 +16,9 @@ body {
 }
 
 .logo_corte {
-    height: 150px;
+    height: 75px;
+    border: none;
+
 }
 
 a {
@@ -30,13 +32,27 @@ h2 {
 
 h1 {
     font-size: xx-large;
-    color: var(--cor-primaria);
+    color: var(--font-color-secundaria);
     font-size: 40px;
 }
 
 img {
     border-radius: 16px;
-    border: 1px solid rgb(163, 163, 163);
+    border: 1px solid var(--borda-card);
+}
+
+.whatsapp {
+    padding: 10px 20px;
+    background-color: rgb(18, 139, 18);
+    border: none; 
+    /* 1px solid var(--borda-card); */
+    border-radius: 12px;
+    margin: 30px;
+}
+.whatsapp a{
+    background-color: transparent !important;
+    color: var(--font-color-secundaria);
+    font-weight: 600;
 }
 
 .foto_texto {
@@ -62,7 +78,7 @@ img {
 }
 
 .row-fotos section .container-produto {
-    background-color: var(--cor-primaria);
+    background-color: var(--cor-secundaria);
     height: fit-content;
     padding: 20px;
     border-radius: 16px;
@@ -73,8 +89,9 @@ img {
 
 .row-fotos p {
     margin-top: 15px;
-    color: white;
-    background-color: transparent;    height: 40px;
+    color: black;
+    background-color: transparent;
+    height: 40px;
 
 }
 
@@ -98,9 +115,9 @@ img {
     width: 100%;
     /* height: fit-content; */
     padding: 10px 10px;
-    background-color: #feffff;
+    background-color: var(--cor-primaria);
     border-radius: 12px;
-    color: rgb(0, 0, 0);
+    color: var(--font-color-secundaria);
     font-weight: bold;
     font-size: 16px;
     border: none;
@@ -114,4 +131,13 @@ img {
 .foot-page {
     height: 200px;
     width: 100%;
+}
+
+.links_midia {
+    list-style: none;
+}
+
+.links_midia li {
+    margin: 10px;
+    display:inline-block;
 }
