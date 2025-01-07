@@ -108,6 +108,7 @@ img {
 }
 
 .row-fotos section .container-produto {
+    width: 300px;
     background-color: var(--cor-secundaria);
     height: fit-content;
     padding: 20px;
@@ -203,4 +204,38 @@ li button {
     width: 100%;
     margin-top: 10px;
     justify-content: center;
+}
+
+@media screen and(max-width: 1202px) {
+    .print_fone{
+        display: none;
+    }
+}
+
+@media screen and  (max-width: 1201px ){
+    .row-fotos{
+        align-items: center;
+    }
+    .row-fotos section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .foot-page{
+
+    }
+    .print_fone{
+        display: block;
+        width: 200px !important;
+        height: 500px !important;
+    }
+    .print_pc{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .foto_texto{
+        flex-direction: column;
+    }
+    
 }
