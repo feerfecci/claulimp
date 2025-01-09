@@ -1,0 +1,89 @@
+@media screen and (max-width: 1201px) {
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .start-texto {
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .start-texto h3 {
+        text-align: center;
+        justify-self: center;
+        width: 90%;
+        margin: 20px 0px !important;
+    }
+
+    .foto_texto {
+        flex-direction: column;
+    }
+
+    .foto_texto img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .texto-revend {
+        width: 100%;
+    }
+
+    .texto-revend img {
+        margin-top: 20px;
+        width: 250px;
+        height: 150px;
+    }
+
+    .section-fotos {
+        margin-top: 60px !important;
+    }
+
+    .row-fotos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .print_fone {
+        display: block;
+        width: 200px !important;
+        height: 500px !important;
+    }
+
+    .print_pc {
+        display: none;
+    }
+
+    .section-perfil {
+        height: 400px;
+    }
+
+    .foot-page {
+        display: block;
+        justify-items: center;
+
+    }
+
+    .logo_foot {
+        display: none;
+    }
+
+    .horario-func p{
+        text-align: center;
+    }
+
+    .contatos{
+        gap: 20px;
+        margin-top: 30px;
+    }
+    .links_midia{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .foto_texto {
+        flex-direction: column;
+    }
+
+}
