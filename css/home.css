@@ -17,6 +17,10 @@ header {
     margin-top: 0px;
 }
 
+.section-principal section {
+    margin-top: 150px !important;
+}
+
 .subtitle {
     color: white;
     font-weight: 300;
@@ -34,6 +38,7 @@ header {
 
 a {
     text-decoration: none;
+    cursor: pointer;
 }
 
 p {
@@ -94,7 +99,7 @@ img {
 
 .foto_texto {
     display: flex;
-    margin-top: 60px;
+    /* margin-top: 60px; */
     gap: 40px;
     justify-content: center;
     align-items: center;
@@ -116,7 +121,7 @@ img {
 }
 
 .section-fotos {
-    margin-top: 150px !important;
+    /* margin-top: 150px !important; */
     width: 100%;
 }
 
@@ -184,7 +189,7 @@ img {
 .section-perfil {
     width: 100%;
     height: 300px;
-    margin-top: 150px;
+    /* margin-top: 150px; */
     justify-items: center;
 }
 
@@ -203,7 +208,7 @@ img {
 
 .horario-func {
     display: block;
-        }
+}
 
 .links_midia {
     list-style: none;

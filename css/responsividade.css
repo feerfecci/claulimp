@@ -1,4 +1,7 @@
 @media screen and (max-width: 1201px) {
+    .section-principal section {
+        margin-top: 110px !important;
+    }
 
     h1 {
         font-size: 30px;
@@ -36,7 +39,7 @@
     }
 
     .section-fotos {
-        margin-top: 60px !important;
+        /* margin-top: 60px !important; */
     }
 
     .row-fotos {
