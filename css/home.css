@@ -1,40 +1,10 @@
 body {
     text-align: center;
     color: rgb(0, 0, 0);
+    background-color: #2768ac;
 }
 
-header {
-    width: 100%;
-    justify-items: start;
-    display: flex;
-}
 
-.section-principal {
-    justify-self: center;
-    display: block;
-    width: 90%;
-    justify-items: center;
-    margin-top: 0px;
-}
-
-.section-principal section {
-    margin-top: 150px !important;
-}
-
-.subtitle {
-    color: white;
-    font-weight: 300;
-}
-
-.section-principal section {
-    margin-top: 70px;
-}
-
-.logo_corte {
-    height: 100px;
-    border: none;
-
-}
 
 a {
     text-decoration: none;
@@ -67,16 +37,150 @@ img {
     border: 1px solid var(--borda-card);
 }
 
+.section-principal {
+    justify-self: center;
+    display: block;
+    width: 90%;
+    justify-items: center;
+    margin-top: 0px;
+    position: relative;
+}
+
+.section-principal section {
+    margin-top: 150px !important;
+}
+
+header {
+    height: 600px;
+    width: 100%;
+    /* width: 100%;
+    justify-items: start;
+    display: flex; */
+    position: relative;
+    /* Define o contexto de posicionamento */
+    z-index: 1;
+    /* Mantém o header abaixo */
+}
+
+.casalimpa {
+    border-radius: unset;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+
+    /* Full height */
+    /* height: %;  */
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cabecalho {
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+
+.bg-text {
+    display: block;
+    /* padding: 20px; */
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.658);
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+
+}
+
+.boas-vindas {}
+
+.row-apresent {
+    position: absolute;
+    /* Posiciona sobre o header */
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    margin-top: 0px;
+    justify-content: space-around;
+    position: sticky;
+    z-index: 2;
+    /* Garante que estará acima do header */
+}
+
+.card-incio {
+    height: 100% !important;
+    background-color: var(--cor-secundaria);
+    height: fit-content;
+    padding: 20px;
+    border-radius: 16px;
+    align-content: space-between;
+    /* background-color: green; */
+}
+
+.card-incio h2 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: var(--cor-primaria);
+}
+
+.card-incio h4 {
+    color: var(--cor-primaria);
+    height: 170px;
+    text-align: center;
+    align-content: center;
+    margin: 0px 40px;
+}
+
+.card-incio ul {
+    text-align: start;
+    list-style-position: inside;
+}
+
+.card-incio ul li {
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    color: white;
+    font-weight: 300;
+}
+
+.section-principal section {
+    margin-top: 70px;
+}
+
+.logo_corte {
+    height: 100%;
+    border: none;
+    align-self: flex-start;
+
+}
+
+
 .whatsapp {
     padding: 10px 20px;
     background-color: rgb(18, 139, 18);
     border: none;
     /* 1px solid var(--borda-card); */
     border-radius: 8px;
-    margin: 30px;
     color: white;
     text-align: center;
     align-content: center;
+    margin-bottom: 50px;
+    cursor: pointer;
 }
 
 .whatsapp svg {
@@ -88,6 +192,10 @@ img {
     background-color: transparent !important;
     color: var(--font-color-secundaria);
     font-weight: 600;
+}
+
+.start-texto {
+    /* position: initial; */
 }
 
 .start-texto h3 {
@@ -123,6 +231,14 @@ img {
 .section-fotos {
     /* margin-top: 150px !important; */
     width: 100%;
+}
+
+.texto-emoji {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
 }
 
 .row-fotos {
@@ -198,7 +314,8 @@ img {
 }
 
 
-.foot-page {height: fit-content;
+.foot-page {
+    height: fit-content;
     width: 100%;
     display: flex;
     justify-content: space-around;
