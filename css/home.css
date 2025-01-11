@@ -104,7 +104,20 @@ header {
 
 }
 
-.boas-vindas {}
+.bg-text p {
+    margin-bottom: 10px;
+}
+
+.bg-text h2 {
+    margin: 30px;
+}
+
+.quemsomos {
+    width: 100%;
+    display: block;
+    text-align: center;
+    align-content: center;
+}
 
 .row-apresent {
     position: absolute;
